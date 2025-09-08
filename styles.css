@@ -1,5 +1,6 @@
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  background-color: #785b23;
+  color: #db932c;
   font-family: sans-serif;
   padding: 20px;
 }
