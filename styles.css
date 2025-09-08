@@ -1,13 +1,14 @@
 body {
   background-color: #785b23;
   color: #db932c;
-  font-family: sans-serif Helvetica;
+  font-family: sans-serif;
   padding: 20px;
 }
 
 h1 {
   font-size: 40px;
   margin-top: 0;
+  font-family: Helvetica, sans-serif;
   margin-bottom: 15px;
 }
 
