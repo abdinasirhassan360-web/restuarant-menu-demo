@@ -23,6 +23,14 @@ h2 {
 h1, h2, {
   text-align: center;
 }
+.established {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+}
 p {
     font-family: 'Nunito', sans-serif;
 }
@@ -39,6 +47,10 @@ p {
   grid-template-columns: 1fr 1fr; /* two equal columns */
   gap: 20px;                      /* space between columns */
 }
+@media (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: 1fr; /* collapse to 1 column on phones */
+  }
 
 /* make sure sections fill their grid cell nicely */
 .menu-grid section {
