@@ -88,24 +88,24 @@ hr {
   text-align: left;
   color: white;        /* white dish names */
   font-size: 20px;     /* bigger font */
-  font-weight: 600;    /* make names bold */
+  font-weight: 400;    /* make names bold */
 }
 
 .price {
   flex: 0 0 60px;
   text-align: right;
   color: #db932c; /* keep accent color for prices */
-  font-size: 18px;
+  font-size: 9px;
 }
 
 /* ----- CATEGORY STYLING ----- */
 .menu-grid h2 {
   text-align: left;      /* left aligned category names */
-  margin-bottom: 10px;   /* space between heading and first item */
+  margin-bottom: 5px;   /* space between heading and first item */
 }
 
 .menu-grid section {
-  margin-bottom: 25px;   /* space between category blocks */
+  margin-bottom: 10px;   /* space between category blocks */
 }
 
 /* FOOTER */
