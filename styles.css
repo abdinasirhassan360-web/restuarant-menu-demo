@@ -68,6 +68,9 @@ hr {
   align-items: center;
   gap: 12px;
 }
+.item p {
+    margin: 2px 0;  /* vertical margin only */
+}
 
 .flavor, .dessert {
   flex: 1;        /* grow and shrink as needed, takes leftover space */
