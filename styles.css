@@ -45,6 +45,10 @@ p {
   grid-template-columns: 1fr 1fr; /* two equal columns */
   gap: 20px;                      /* space between columns */
 }
+.menu-grid .item p {
+  color: white;
+}
+
 
 @media (max-width: 600px) {
   .menu-grid {
