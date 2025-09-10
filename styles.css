@@ -22,9 +22,10 @@ h2 {
 
 h1, h2, p {
   text-align: center;
-  font-family: 'Nunito', sans-serif;
 }
-
+p {
+    font-family: 'Nunito', sans-serif;
+}
 .menu {
   width: 80%;
   background-color: #202020;
