@@ -11,6 +11,7 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 15px;
   text-align: center;
+  line-height: 1.1;
 }
 h1 .restaurant {
   color: white; /* first word */
@@ -20,6 +21,7 @@ h1 .restaurant {
 h1 .menu-title {
   color: #db932c; /* second word */
   display: block;
+  margin-top: -5px;
 }
 
 h2 {
