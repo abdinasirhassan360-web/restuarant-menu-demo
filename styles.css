@@ -80,7 +80,7 @@ hr {
   justify-content: space-between; /* pushes flavor left, price right */
   align-items: center;
   gap: 12px;
-  margin: 6px 0; /* spacing between items */
+  margin: 3px 0; /* spacing between items */
 }
 
 .flavor, .dessert, .appetizer, .main {
@@ -95,7 +95,7 @@ hr {
   flex: 0 0 60px;
   text-align: right;
   color: #db932c; /* keep accent color for prices */
-  font-size: 9px;
+  font-size: 15px;
 }
 
 /* ----- CATEGORY STYLING ----- */
