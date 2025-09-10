@@ -15,7 +15,6 @@ h1 {
 
 h2 {
   font-size: 30px;
-  text-align: center;
 }
 
 .established {
@@ -37,7 +36,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  max-width: 900px; /* increased so 2 columns fit nicely */
+  max-width: 900px; /* wider for 2-column layout */
 }
 
 .menu-grid {
@@ -45,17 +44,11 @@ p {
   grid-template-columns: 1fr 1fr; /* two equal columns */
   gap: 20px;                      /* space between columns */
 }
-.menu-grid .flavor,
-.menu-grid .dessert,
-.menu-grid .appetizer,
-.menu-grid .main {
-  color: white;
-}
 
-
+/* responsive: collapse to 1 column on phones */
 @media (max-width: 600px) {
   .menu-grid {
-    grid-template-columns: 1fr; /* collapse to 1 column on phones */
+    grid-template-columns: 1fr;
   }
 
   .menu-grid section {
@@ -81,25 +74,41 @@ hr {
   margin-top: 25px;
 }
 
+/* ----- MENU ITEM STYLING ----- */
 .item {
   display: flex;
   justify-content: space-between; /* pushes flavor left, price right */
   align-items: center;
   gap: 12px;
+  margin: 6px 0; /* spacing between items */
 }
 
 .flavor, .dessert, .appetizer, .main {
   flex: 1;
   text-align: left;
+  color: white;        /* white dish names */
+  font-size: 20px;     /* bigger font */
+  font-weight: 600;    /* make names bold */
 }
 
 .price {
   flex: 0 0 60px;
   text-align: right;
+  color: #db932c; /* keep accent color for prices */
+  font-size: 18px;
+}
+
+/* ----- CATEGORY STYLING ----- */
+.menu-grid h2 {
+  text-align: left;      /* left aligned category names */
+  margin-bottom: 10px;   /* space between heading and first item */
+}
+
+.menu-grid section {
+  margin-bottom: 25px;   /* space between category blocks */
 }
 
 /* FOOTER */
-
 footer {
   font-size: 14px;
 }
