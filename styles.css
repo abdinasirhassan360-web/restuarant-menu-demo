@@ -76,24 +76,20 @@ hr {
 
 .item {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* pushes flavor left, price right */
   align-items: center;
-  gap: 12px;
-}
-.item p {
-    margin: 2px 0;  /* vertical margin only */
+  gap: 12px; /* space between them */
 }
 
 .flavor, .dessert {
-  flex: 1;        /* grow and shrink as needed, takes leftover space */
-  text-align: left;
+  flex: 1;           /* take up available space */
+  text-align: left;  /* stick to the left */
 }
 
 .price {
-  flex: 0 0 60px; /* fixed width of ~60px */
-  text-align: right;
+  flex: 0 0 60px;    /* fixed width for price */
+  text-align: right; /* stick to the right */
 }
-
 
 /* FOOTER */
 
