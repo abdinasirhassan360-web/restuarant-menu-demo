@@ -42,12 +42,12 @@ p {
 }
 
 .menu {
-  width: 80%;
+  width: 50%;
+  max-width: 350px;
+  min-width: 250px;
   background-color: #202020;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 20px;
-  max-width: 900px; /* wider for 2-column layout */
 }
 
 .menu-grid {
