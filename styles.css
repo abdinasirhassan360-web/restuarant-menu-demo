@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   line-height: 1.1;
 }
+
 h1 .restaurant {
   color: white; /* first word */
   display: block;
@@ -26,11 +27,6 @@ h1 .menu-title {
 
 h2 {
   font-size: 30px;
-}
-
-.established {
-  text-align: center;
-  font-style: italic;
 }
 
 footer {
@@ -75,7 +71,6 @@ img {
   margin-right: auto;
 }
 
-
 .bottom-line {
   margin-top: 25px;
 }
@@ -86,15 +81,19 @@ img {
   justify-content: space-between; /* pushes flavor left, price right */
   align-items: center;
   gap: 12px;
-  margin:  0; /* spacing between items */
+  margin: 0; /* reset margins */
 }
 
-.flavor, .dessert, .appetizer, .main, .drink {
+.item p {
+  margin: 2px 0; /* reduce vertical spacing between items */
+}
+
+.flavor, .dessert, .appetizer, .main, .drinks {
   flex: 1;
   text-align: left;
   color: white;        /* white dish names */
   font-size: 20px;     /* bigger font */
-  font-weight: 400;    /* make names bold */
+  font-weight: 400;
 }
 
 .price {
@@ -106,39 +105,17 @@ img {
 
 /* ----- CATEGORY STYLING ----- */
 .menu-grid h2 {
-  text-align: left;      /* left aligned category names */
-  margin-bottom: 5px;   /* space between heading and first item */
+  text-align: left;
+  margin-bottom: 5px;
+  color: white;
 }
 
 .menu-grid section {
-  margin-bottom: 10px;   /* space between category blocks */
+  margin-bottom: 20px;   /* space between category blocks */
+  border-bottom: 1px solid #444; /* subtle line between categories */
+  padding-bottom: 10px;
 }
 
-/* FOOTER */
-footer {
-  font-size: 14px;
-}
-
-address {
-  font-style: normal;
-}
-
-.address {
-  margin-bottom: 5px;
-}
-
-a {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: brown;
-}
-
-a:active {
-  color: brown;
+.menu-grid section:last-child {
+  border-bottom: none; /* remove line after last section */
 }
