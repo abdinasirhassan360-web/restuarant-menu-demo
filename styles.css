@@ -34,7 +34,18 @@ p {
   padding: 20px;
   max-width: 500px;
 }
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 20px;                      /* space between columns */
+}
 
+/* make sure sections fill their grid cell nicely */
+.menu-grid section {
+  background: #202020;
+  padding: 10px;
+  border-radius: 8px;
+}
 img {
   display: block;
   margin-left: auto;
@@ -50,9 +61,6 @@ hr {
 .bottom-line {
   margin-top: 25px;
 }
-
-
-
 
 .item {
   display: flex;
