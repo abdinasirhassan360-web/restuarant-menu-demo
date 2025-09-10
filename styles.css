@@ -89,7 +89,7 @@ img {
   margin:  0; /* spacing between items */
 }
 
-.flavor, .dessert, .appetizer, .main {
+.flavor, .dessert, .appetizer, .main, .drinks {
   flex: 1;
   text-align: left;
   color: white;        /* white dish names */
