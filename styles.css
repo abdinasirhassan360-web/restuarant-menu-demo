@@ -45,7 +45,10 @@ p {
   grid-template-columns: 1fr 1fr; /* two equal columns */
   gap: 20px;                      /* space between columns */
 }
-.menu-grid .item p {
+.menu-grid .flavor,
+.menu-grid .dessert,
+.menu-grid .appetizer,
+.menu-grid .main {
   color: white;
 }
 
