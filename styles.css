@@ -12,6 +12,15 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
 }
+h1 .restaurant {
+  color: white; /* first word */
+  display: block;
+}
+
+h1 .menu-title {
+  color: #db932c; /* second word */
+  display: block;
+}
 
 h2 {
   font-size: 30px;
