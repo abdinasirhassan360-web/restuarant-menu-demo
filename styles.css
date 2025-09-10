@@ -27,7 +27,6 @@ h1 .menu-title {
 
 h2 {
   font-size: 30px;
-  color: #db932c;
 }
 
 footer {
@@ -45,6 +44,7 @@ p {
   background-color: #202020;
   margin: 0 auto;
   padding: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .menu-grid {
@@ -108,7 +108,7 @@ img {
 .menu-grid h2 {
   text-align: left;
   margin-bottom: 5px;
-  color: white;
+  color: #db932c;
 }
 
 .menu-grid section {
