@@ -80,7 +80,7 @@ hr {
   justify-content: space-between; /* pushes flavor left, price right */
   align-items: center;
   gap: 12px;
-  margin: 3px 0; /* spacing between items */
+  margin:  0; /* spacing between items */
 }
 
 .flavor, .dessert, .appetizer, .main {
